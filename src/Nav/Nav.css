@@ -1,0 +1,43 @@
+nav {
+    background: #4E4E4E;
+    height: 50px;
+    padding: 0 20px;
+    box-sizing: border-box;
+}
+  
+nav a {
+    margin-left: 45px;
+    color: white;
+    text-decoration: none;
+}
+  
+.nav-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 100%;
+    color: white;
+}
+  
+.nav-container > a:first-of-type {
+    margin: 0;
+    font-weight: bold;
+}
+  
+#contact {
+    cursor: not-allowed;
+}
+  
+.nav-bar-right {
+    display: none;
+}
+
+@media (min-width: 996px) {
+    .nav-bar-right {
+        display: flex;
+      }
+    
+      .nav-mobile {
+        display: none;
+      }
+}

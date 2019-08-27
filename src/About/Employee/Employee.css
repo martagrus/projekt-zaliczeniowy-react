@@ -1,0 +1,42 @@
+.employee {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-content: center;
+    align-items: center;
+    text-align: justify;
+    font-size: 18px; 
+    line-height: 21px; 
+    padding: 20px;
+}
+  
+h3 {
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+  
+.employee-pic {
+    background-position: center;
+    background-size: cover;
+    border-radius: 50%;  
+    width: 200px;
+    height: 200px;
+    margin: 30px;
+    flex-shrink: 0;
+}
+
+@media (min-width: 996px) {
+    .employee {
+        flex-direction: row;
+        }
+    
+    .employee:nth-of-type(odd) {
+        justify-content: left;
+    }
+        
+    .employee:nth-of-type(even) {
+        flex-direction: row-reverse;
+        justify-content: right;
+        text-align: right;
+    }
+}

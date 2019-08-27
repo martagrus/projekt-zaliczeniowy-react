@@ -1,0 +1,17 @@
+button {
+    padding: 11px 57px;
+    font-size: 18px;
+    font-weight: bold;
+    cursor: pointer;
+    background-color: transparent;
+    color: white;
+    border: 3px solid white;
+    transition: 1s all;
+  }
+
+@media (min-width: 996px) {
+    button:hover {
+        background-color: white;
+        color: black;
+      }
+}
