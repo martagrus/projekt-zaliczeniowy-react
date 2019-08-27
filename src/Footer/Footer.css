@@ -51,4 +51,8 @@ footer{
     .icons {
         padding-top: 0px;
     }
+
+    #fbIcon {
+        padding-left: 10px;
+    }
 }

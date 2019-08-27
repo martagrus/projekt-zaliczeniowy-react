@@ -13,7 +13,7 @@ class Footer extends React.Component {
                     <h2>Nazwa firmy - wszelkie prawa zastrzeżone, 2019</h2>
                     <div className="icons">    
                         <a href="https://www.instagram.com" target="_blank"><FontAwesomeIcon icon={faInstagram}/></a>
-                        <a href="https://www.facebook.com" target="_blank"><FontAwesomeIcon icon={faFacebookSquare}/></a>
+                        <a id="fbIcon" href="https://www.facebook.com" target="_blank"><FontAwesomeIcon icon={faFacebookSquare}/></a>
                     </div>
                 </div>
             </footer>
