@@ -6,8 +6,7 @@ The project was built during Frontend Developer Bootcamp at CodersTrust.
 
 ## Built with
 React.js,
-CSS,
-[Bootstrap](https://github.com/facebook/create-react-app).
+CSS
 
 ## How to use
 
