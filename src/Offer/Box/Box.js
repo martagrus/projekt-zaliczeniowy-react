@@ -1,10 +1,6 @@
 import React from 'react';
-import './Box.css';
 
 class Box extends React.Component {
-    constructor(props) {
-        super(props);
-    }
 
     displayNewText () {
         if(this.props.box.isNew) return <span>(nowość)</span>
