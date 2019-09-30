@@ -5,8 +5,8 @@ https://martagrus.github.io/projekt-zaliczeniowy-react/
 The project was built during Frontend Developer Bootcamp at CodersTrust.
 
 ## Built with
-React.js
-CSS
+React.js,
+CSS,
 [Bootstrap](https://github.com/facebook/create-react-app).
 
 ## How to use
